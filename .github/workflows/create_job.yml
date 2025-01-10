@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Create T-One Job
-        uses: shankailun-aliyun/T-One
+        uses: shankailun-aliyun/T-One@main
         with:
           username: shankailun10
           token: 43be8d4ce6f1425986c658ad68a4ec47
