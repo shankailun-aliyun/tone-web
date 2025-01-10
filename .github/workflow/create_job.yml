@@ -1,0 +1,19 @@
+name: create_tone_job
+
+on:
+  push:
+    branches:
+      - main
+    
+jobs:
+  create_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Create T-One Job
+        uses: ./
+        with:
+          username: shankailun.skl
+          token: GAxHiL8rNpoBs4jzqUDFK3XOEl1RCfQI
