@@ -17,3 +17,5 @@ jobs:
         with:
           username: shankailun10
           token: 43be8d4ce6f1425986c658ad68a4ec47
+          workspace: platform_test
+          template: create_job_template
