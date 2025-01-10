@@ -15,5 +15,5 @@ jobs:
       - name: Create T-One Job
         uses: ./
         with:
-          username: shankailun.skl
-          token: GAxHiL8rNpoBs4jzqUDFK3XOEl1RCfQI
+          username: shankailun10
+          token: 43be8d4ce6f1425986c658ad68a4ec47
