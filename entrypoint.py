@@ -21,7 +21,7 @@ def create_job_by_template():
         "template": "create_job_template",
         "workspace": "platform_test"
     }
-    url = 'https://tone.aliyun-inc.com/api/v2/job/create/'
+    url = 'https://tone.openanolis.cn/api/job/create/'
     try:
         req = requests.request(method="post", url=url, json=data, verify=False)
         print(req.text)
